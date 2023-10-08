@@ -7,7 +7,7 @@ const server = http.createServer((req,res)=>{
     if(req.url === '/about'){
     res.end("Welcome to our about page")
     }
-    res.end('OOPS, we cannot found what you were looking for!😢')
+    res.end('OOPS, we cannot find what you were looking for!😢')
 })
 
 server.listen('6969')
